@@ -1,5 +1,5 @@
 
-import type { Monastery, Festival } from './types';
+import type { Monastery, Festival } from './types.ts';
 
 export const MONASTERIES: Monastery[] = [
   {

@@ -1,11 +1,12 @@
+
 import React, { useState, useRef, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Monasteries from './components/Monasteries';
-import Festivals from './components/Festivals';
-import AudioGuide from './components/AudioGuide';
-import Footer from './components/Footer';
-import { SoundOnIcon, SoundOffIcon } from './components/Icons';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Monasteries from './components/Monasteries.tsx';
+import Festivals from './components/Festivals.tsx';
+import AudioGuide from './components/AudioGuide.tsx';
+import Footer from './components/Footer.tsx';
+import { SoundOnIcon, SoundOffIcon } from './components/Icons.tsx';
 
 const App: React.FC = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);

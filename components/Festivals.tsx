@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { FESTIVALS } from '../constants';
+import { FESTIVALS } from '../constants.ts';
 
 const Festivals: React.FC = () => {
   return (

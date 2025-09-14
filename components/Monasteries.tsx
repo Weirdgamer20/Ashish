@@ -1,7 +1,8 @@
+
 import React, { useEffect, useRef, useState } from 'react';
-import { MONASTERIES } from '../constants';
-import type { Monastery } from '../types';
-import { PrayerWheelIcon, StupaIcon } from './Icons';
+import { MONASTERIES } from '../constants.ts';
+import type { Monastery } from '../types.ts';
+import { PrayerWheelIcon, StupaIcon } from './Icons.tsx';
 
 // Card component defined outside to prevent re-creation on re-renders
 interface MonasteryCardProps {

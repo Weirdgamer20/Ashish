@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { SingingBowlIcon } from './Icons';
+import { SingingBowlIcon } from './Icons.tsx';
 
 const AudioGuide: React.FC = () => {
   return (
